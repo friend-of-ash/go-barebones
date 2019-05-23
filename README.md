@@ -11,7 +11,7 @@ A barebones Golang web server.
 ### ... With Docker
 
 1. ```docker build -t go-barebones:latest .```
-2. ```docker run -p 9000:9000 go-barebones:latest```
+2. ```docker run -p ${YOUR_PORT}:${YOUR_PORT} go-barebones:latest```
 
 ### ... Without Docker
 
@@ -20,4 +20,4 @@ A barebones Golang web server.
 
 ## Test it out
 
-Head to localhost:9000 in your browser.. voila :)
+Head to localhost:${YOUR_PORT} in your browser.. voila :)
